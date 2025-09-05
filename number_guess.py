@@ -17,5 +17,6 @@ while guess != random_number:
         guess = int(input("Guess again:"))
 
 if guess == random_number:
-    print(f"You guessed right! The number was {random_number}, Thank you for playing!")
+    input(f"You guessed right! The number was {random_number}, Thank you for playing!, press any key to exit.")
+    
 
